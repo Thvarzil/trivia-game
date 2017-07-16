@@ -40,7 +40,7 @@ var quotes = ["IN COLOR",
     "Bender's Humor by Microsoft Joke",
     "FEDERAL LAW PROHIBITS CHANGING THE CHANNEL",
     "FOR PROPER VIEWING, TAKE RED PILL NOW",
-    "NO HUMANS WHERE PROBED IN THE MAKING OF THIS EPISODE",
+    "NO HUMANS WERE PROBED IN THE MAKING OF THIS EPISODE",
     "FUN FOR THE WHOLE FAMILY EXCEPT GRANDMA AND GRANDPA",
     "THIS EPISODE PERFORMED ENTIRELY BY SOCK PUPPETS",
     "Hey, TiVo! Suggest THIS!",
@@ -70,7 +70,7 @@ var quotes = ["IN COLOR",
     "Controlling you through a chip in your butt since 1999",
     "See you on some other channel"];
 
-var fonts = ["'UnifrakturMaguntia', cursive", "'VT323', monospace", "'Freckle Face', cursive", "'Michroma', sans-serif", "'Megrim', cursive", "'Rock Salt', cursive", "'Audiowide', cursive", "'Russo One', sans-serif", "'Kanit', sans-serif"];
+var fonts = ["'VT323', monospace", "'Freckle Face', cursive", "'Michroma', sans-serif", "'Megrim', cursive", "'Rock Salt', cursive", "'Audiowide', cursive", "'Russo One', sans-serif", "'Kanit', sans-serif"];
 
 function quoteRandomizer() {
     var quote = quotes[Math.floor(Math.random() * quotes.length)];
@@ -84,7 +84,7 @@ function quoteRandomizer() {
 }
 
 $(document).ready(function () {
-    setInterval(quoteRandomizer, 5000);
+    setInterval(quoteRandomizer, 4000);
 
 });/**
  * Created by Monk on 7/16/2017.
