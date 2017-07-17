@@ -10,7 +10,11 @@ body{
 }
 
 .timerBox{
-    
+    position: absolute;
+    top: 225px;
+    left: 50px;
+    width: 100px;
+    padding-left: 30px;
 }
 
 .questionBox{

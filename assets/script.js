@@ -1,9 +1,16 @@
-
+var correct = 0;
+var incorrect = 0;
+var unanswered = 10;
 
 function correctAnswer(input){
-    $(input).css("background", "rgba(129, 237, 67, 0.8)");
+    $(input).css("disabled", "disabled");
+    unanswered--;
+    correct++;
+
 }
 
-function badAnswer(){
-
+function badAnswer(input){
+    $(input).css("disabled", "disabled");
+    unanswered--;
+    incorrect++;
 }
