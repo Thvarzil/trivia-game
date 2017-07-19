@@ -32,135 +32,170 @@
 </header>
 
 
-<!--Remaining time Display-->
-<div class="container">
-    <div class="row">
-        <div class="col-11 jumbotron text-center timerBox"><h2>45.2'</h2></div>
-    </div>
-</div>
 
 
 <!--Jumbotron containers for questions and answer buttons-->
-<div class="container">
-    <div class="row">
-        <div class=" jumbotron col-lg-8 col-sm-12 questionBox"></div>
-        <div class=" jumbotron col-lg-3 col-sm-12 answerBox">
-            <button class="btn btn-warning answerButton1" onclick="">A</button>
-            <button class="btn btn-warning answerButton1" onclick="">B</button>
-            <button class="btn btn-warning answerButton1" onclick="">C</button>
-            <button class="btn btn-warning answerButton1" onclick="">D</button>
+
+<div class="questionArea">
+
+    <!--Remaining time Display-->
+    <div class="container">
+        <div class="row">
+            <div class="col-11 jumbotron text-center timerBox"></div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class=" jumbotron col-lg-8 col-sm-12 questionBox">
+                <h3>Can you name Leela's father? <br/> A)Norris B)Charles C)Morris D)Jimmy</h3>
+            </div>
+            <div class=" jumbotron col-lg-3 col-sm-12 answerBox">
+                <button class="btn btn-warning answerButton1" onclick="badAnswer('#answerButton1')">A</button>
+                <button class="btn btn-warning answerButton1" onclick="badAnswer('#answerButton1')">B</button>
+                <button class="btn btn-warning answerButton1" onclick="correctAnswer('#answerButton1')">C</button>
+                <button class="btn btn-warning answerButton1" onclick="badAnswer('#answerButton1')">D</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class=" jumbotron col-lg-8 col-sm-12 questionBox">
+                <h3>What planet is Lrrr the ruler of?<br/> A)Omicron Persei 8 B)Chapek 9 C)Pandora D)Ebola 9</h3>
+            </div>
+            <div class=" jumbotron col-lg-3 col-sm-12 answerBox">
+                <button class="btn btn-warning answerButton2" onclick="correctAnswer('#answerButton2')">A</button>
+                <button class="btn btn-warning answerButton2" onclick="badAnswer('#answerButton2')">B</button>
+                <button class="btn btn-warning answerButton2" onclick="badAnswer('#answerButton2')">C</button>
+                <button class="btn btn-warning answerButton2" onclick="badAnswer('#answerButton2')">D</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class=" jumbotron col-lg-8 col-sm-12 questionBox">
+                <h3>Which voice actor plays Fry, Professor Farnsworth, Zoidberg and many other characters? <br/>A) John
+                    DiMaggio
+                    B) Billy West C) Tress MacNeill D) Maurice LaMarche</h3>
+            </div>
+            <div class=" jumbotron col-lg-3 col-sm-12 answerBox">
+                <button class="btn btn-warning answerButton3" onclick="correctAnswer('#answerButton3')">A</button>
+                <button class="btn btn-warning answerButton3" onclick="badAnswer('#answerButton3')">B</button>
+                <button class="btn btn-warning answerButton3" onclick="badAnswer('#answerButton3')">C</button>
+                <button class="btn btn-warning answerButton3" onclick="badAnswer('#answerButton3')">D</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class=" jumbotron col-lg-8 col-sm-12 questionBox">
+                <h3>Which vaguely-folkish alterna-rock star did Bender tour with?<br/> A) BlackBerry Smoke B) Beck C)
+                    The Soggy
+                    Bottom Boys D) Silicone Red</h3>
+            </div>
+            <div class=" jumbotron col-lg-3 col-sm-12 answerBox">
+                <button class="btn btn-warning answerButton4" onclick="badAnswer('#answerButton4')">A</button>
+                <button class="btn btn-warning answerButton4" onclick="correctAnswer('#answerButton4')">B</button>
+                <button class="btn btn-warning answerButton4" onclick="badAnswer('#answerButton4')">C</button>
+                <button class="btn btn-warning answerButton4" onclick="badAnswer('#answerButton4')">D</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class=" jumbotron col-lg-8 col-sm-12 questionBox">
+                <h3>Finish the episode title: The Farnsworth _:<br/> A)Paradox B)Incident C) Disaster D) Parabox</h3>
+            </div>
+            <div class=" jumbotron col-lg-3 col-sm-12 answerBox">
+                <button class="btn btn-warning answerButton5" onclick="badAnswer('#answerButton5')">A</button>
+                <button class="btn btn-warning answerButton5" onclick="badAnswer('#answerButton5')">B</button>
+                <button class="btn btn-warning answerButton5" onclick="badAnswer('#answerButton5')">C</button>
+                <button class="btn btn-warning answerButton5" onclick="correctAnswer('#answerButton5')">D</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class=" jumbotron col-lg-8 col-sm-12 questionBox">
+                <h3>Name the character from the quote: 'I took the liberty of fertilizing your caviar':<br/> A) Zapp
+                    Brannigan B)
+                    Fry C) Zoidberg D) Professor Farnsworth</h3>
+            </div>
+            <div class=" jumbotron col-lg-3 col-sm-12 answerBox">
+                <button class="btn btn-warning answerButton6" onclick="badAnswer('#answerButton6')">A</button>
+                <button class="btn btn-warning answerButton6" onclick="badAnswer('#answerButton6')">B</button>
+                <button class="btn btn-warning answerButton6" onclick="correctAnswer('#answerButton6')">C</button>
+                <button class="btn btn-warning answerButton6" onclick="badAnswer('#answerButton6')">D</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class=" jumbotron col-lg-8 col-sm-12 questionBox">
+                <h3>What is the name of the lovable human-hating news anchor?<br/> A) Linda B) Mom C) Scruffy D) Morbo
+                </h3>
+            </div>
+            <div class=" jumbotron col-lg-3 col-sm-12 answerBox">
+                <button class="btn btn-warning answerButton7" onclick="badAnswer('#answerButton7')">A</button>
+                <button class="btn btn-warning answerButton7" onclick="badAnswer('#answerButton7')">B</button>
+                <button class="btn btn-warning answerButton7" onclick="badAnswer('#answerButton7')">C</button>
+                <button class="btn btn-warning answerButton7" onclick="correctAnswer('#answerButton7')">D</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class=" jumbotron col-lg-8 col-sm-12 questionBox">
+                <h3>What was Uranus renamed 'to end all those stupid jokes once and for all'?<br/> A)Urmomma B)The Butt
+                    Planet C)Urectum D)Turdtopia</h3>
+            </div>
+            <div class=" jumbotron col-lg-3 col-sm-12 answerBox">
+                <button class="btn btn-warning answerButton8" onclick="badAnswer('#answerButton8')">A</button>
+                <button class="btn btn-warning answerButton8" onclick="badAnswer('#answerButton8')">B</button>
+                <button class="btn btn-warning answerButton8" onclick="correctAnswer('#answerButton8')">C</button>
+                <button class="btn btn-warning answerButton8" onclick="badAnswer('#answerButton8')">D</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class=" jumbotron col-lg-8 col-sm-12 questionBox">
+                <h3>Which alcoholic drink does Zapp Brannigan have a hard time pronouncing?<br/> A) Mineral Water B)
+                    Champagne C) Whiskey D) Gimlet</h3>
+            </div>
+            <div class=" jumbotron col-lg-3 col-sm-12 answerBox">
+                <button class="btn btn-warning answerButton9" onclick="badAnswer('#answerButton9')">A</button>
+                <button class="btn btn-warning answerButton9" onclick="correctAnswer('#answerButton9')">B</button>
+                <button class="btn btn-warning answerButton9" onclick="badAnswer('#answerButton9')">C</button>
+                <button class="btn btn-warning answerButton9" onclick="badAnswer('#answerButton9')">D</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class=" jumbotron col-lg-8 col-sm-12 questionBox">
+                <h3>Name the rival delivery company that Dwight and Cubert start:<br/> A)Faster Express B) The Box
+                    Network C) Awesome Express D) The Delivery Network</h3>
+            </div>
+            <div class=" jumbotron col-lg-3 col-sm-12 answerBox">
+                <button class="btn btn-warning answerButton10" onclick="badAnswer('#answerButton10')">A</button>
+                <button class="btn btn-warning answerButton10" onclick="badAnswer('#answerButton10')">B</button>
+                <button class="btn btn-warning answerButton10" onclick="correctAnswer('#answerButton10')">C</button>
+                <button class="btn btn-warning answerButton10" onclick="badAnswer('#answerButton10')">D</button>
+            </div>
         </div>
     </div>
 </div>
-
-<div class="container">
-    <div class="row">
-        <div class=" jumbotron col-lg-8 col-sm-12 questionBox"></div>
-        <div class=" jumbotron col-lg-3 col-sm-12 answerBox">
-            <button class="btn btn-warning answerButton2" onclick="">A</button>
-            <button class="btn btn-warning answerButton2" onclick="">B</button>
-            <button class="btn btn-warning answerButton2" onclick="">C</button>
-            <button class="btn btn-warning answerButton2" onclick="">D</button>
-        </div>
-    </div>
-</div>
-
-<div class="container">
-    <div class="row">
-        <div class=" jumbotron col-lg-8 col-sm-12 questionBox"></div>
-        <div class=" jumbotron col-lg-3 col-sm-12 answerBox">
-            <button class="btn btn-warning answerButton3" onclick="">A</button>
-            <button class="btn btn-warning answerButton3" onclick="">B</button>
-            <button class="btn btn-warning answerButton3" onclick="">C</button>
-            <button class="btn btn-warning answerButton3" onclick="">D</button>
-        </div>
-    </div>
-</div>
-
-<div class="container">
-    <div class="row">
-        <div class=" jumbotron col-lg-8 col-sm-12 questionBox"></div>
-        <div class=" jumbotron col-lg-3 col-sm-12 answerBox">
-            <button class="btn btn-warning answerButton4" onclick="">A</button>
-            <button class="btn btn-warning answerButton4" onclick="">B</button>
-            <button class="btn btn-warning answerButton4" onclick="">C</button>
-            <button class="btn btn-warning answerButton4" onclick="">D</button>
-        </div>
-    </div>
-</div>
-
-<div class="container">
-    <div class="row">
-        <div class=" jumbotron col-lg-8 col-sm-12 questionBox"></div>
-        <div class=" jumbotron col-lg-3 col-sm-12 answerBox">
-            <button class="btn btn-warning answerButton5" onclick="">A</button>
-            <button class="btn btn-warning answerButton5" onclick="">B</button>
-            <button class="btn btn-warning answerButton5" onclick="">C</button>
-            <button class="btn btn-warning answerButton5" onclick="">D</button>
-        </div>
-    </div>
-</div>
-
-<div class="container">
-    <div class="row">
-        <div class=" jumbotron col-lg-8 col-sm-12 questionBox"></div>
-        <div class=" jumbotron col-lg-3 col-sm-12 answerBox">
-            <button class="btn btn-warning answerButton6" onclick="">A</button>
-            <button class="btn btn-warning answerButton6" onclick="">B</button>
-            <button class="btn btn-warning answerButton6" onclick="">C</button>
-            <button class="btn btn-warning answerButton6" onclick="">D</button>
-        </div>
-    </div>
-</div>
-
-<div class="container">
-    <div class="row">
-        <div class=" jumbotron col-lg-8 col-sm-12 questionBox"></div>
-        <div class=" jumbotron col-lg-3 col-sm-12 answerBox">
-            <button class="btn btn-warning answerButton7" onclick="">A</button>
-            <button class="btn btn-warning answerButton7" onclick="">B</button>
-            <button class="btn btn-warning answerButton7" onclick="">C</button>
-            <button class="btn btn-warning answerButton7" onclick="">D</button>
-        </div>
-    </div>
-</div>
-
-<div class="container">
-    <div class="row">
-        <div class=" jumbotron col-lg-8 col-sm-12 questionBox"></div>
-        <div class=" jumbotron col-lg-3 col-sm-12 answerBox">
-            <button class="btn btn-warning answerButton8" onclick="">A</button>
-            <button class="btn btn-warning answerButton8" onclick="">B</button>
-            <button class="btn btn-warning answerButton8" onclick="">C</button>
-            <button class="btn btn-warning answerButton8" onclick="">D</button>
-        </div>
-    </div>
-</div>
-
-<div class="container">
-    <div class="row">
-        <div class=" jumbotron col-lg-8 col-sm-12 questionBox"></div>
-        <div class=" jumbotron col-lg-3 col-sm-12 answerBox">
-            <button class="btn btn-warning answerButton9" onclick="">A</button>
-            <button class="btn btn-warning answerButton9" onclick="">B</button>
-            <button class="btn btn-warning answerButton9" onclick="">C</button>
-            <button class="btn btn-warning answerButton9" onclick="">D</button>
-        </div>
-    </div>
-</div>
-
-<div class="container">
-    <div class="row">
-        <div class=" jumbotron col-lg-8 col-sm-12 questionBox"></div>
-        <div class=" jumbotron col-lg-3 col-sm-12 answerBox">
-            <button class="btn btn-warning answerButton10" onclick="">A</button>
-            <button class="btn btn-warning answerButton10" onclick="">B</button>
-            <button class="btn btn-warning answerButton10" onclick="">C</button>
-            <button class="btn btn-warning answerButton10" onclick="">D</button>
-        </div>
-    </div>
-</div>
-
 
 </body>
 

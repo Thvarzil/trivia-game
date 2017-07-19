@@ -18,11 +18,17 @@ body{
 }
 
 .questionBox{
+    font-family: "VT323", monospace;
     margin: 7px;
 }
 
 .answerBox{
     margin: 7px;
+}
+
+.answerBox button{
+    font-family: 'VT323', monospace;
+    font-size: 18pt;
 }
 
 header{
@@ -46,4 +52,10 @@ h2{
     /*font-family: 'Kanit', sans-serif;*/
     height: 200px;
     text-transform: uppercase;
+}
+
+.gradeBox{
+    position: absolute;
+    width: 100%;
+    top: 300px;
 }
