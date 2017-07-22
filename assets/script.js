@@ -32,7 +32,7 @@ function timerGears(){
     console.log(remaining);
         remaining = remaining-0.1;
 
-        $("#timerBox").html("<h2>" + remaining + "sec</h2>");
+        $("#timerBox").html("<h2>" + remaining + "sec</h2>" );
 
         if(remaining<=0){
             showGrade();
